@@ -1,0 +1,111 @@
+CREATE SEQUENCE SQ_RHSTU_ESTADO
+   START WITH 122          
+   INCREMENT BY 1          
+   MAXVALUE 1200          
+   NOCACHE                 
+   NOCYCLE; 
+   
+CREATE SEQUENCE SQ_RHSTU_CIDADE
+   START WITH 130          
+   INCREMENT BY 1          
+   MAXVALUE 1300        
+   NOCACHE                 
+   NOCYCLE;
+
+CREATE SEQUENCE SQ_RHSTU_BAIRRO
+   START WITH 50         
+   INCREMENT BY 1          
+   MAXVALUE 1500           
+   NOCACHE                 
+   NOCYCLE;
+   
+CREATE SEQUENCE SQ_RHSTU_LOGRADOURO
+   START WITH 70        
+   INCREMENT BY 1          
+   MAXVALUE 5000           
+   NOCACHE                 
+   NOCYCLE;
+   
+CREATE SEQUENCE SQ_RHSTU_TUPO_CONTATO
+   START WITH 30          
+   INCREMENT BY 1          
+   MAXVALUE 1500           
+   NOCACHE                 
+   NOCYCLE;
+   
+CREATE SEQUENCE SQ_RHSTU_ENDERECO_PACIENTE
+   START WITH 30          
+   INCREMENT BY 1          
+   MAXVALUE 1500        
+   NOCACHE                 
+   NOCYCLE;
+   
+CREATE SEQUENCE SQ_RHSTU_UNID_HOSPITALAR
+   START WITH 30       
+   INCREMENT BY 1          
+   MAXVALUE 1400            
+   NOCACHE                 
+   NOCYCLE;
+   
+CREATE SEQUENCE SQ_RHSTU_MEDICO
+   START WITH 30    
+   INCREMENT BY 1          
+   MAXVALUE 1400         
+   NOCACHE                 
+   NOCYCLE;
+   
+CREATE SEQUENCE SQ_RHSTU_MEDICAMENTO
+   START WITH 30    
+   INCREMENT BY 1          
+   MAXVALUE 1500         
+   NOCACHE                 
+   NOCYCLE;
+   
+CREATE SEQUENCE SQ_RHSTU_PRESCRICAO_MEDICA
+   START WITH 20    
+   INCREMENT BY 1          
+   MAXVALUE 1500         
+   NOCACHE                 
+   NOCYCLE;
+   
+CREATE SEQUENCE SQ_RHSTU_PACIENTE
+   START WITH 40    
+   INCREMENT BY 1          
+   MAXVALUE 1500         
+   NOCACHE                 
+   NOCYCLE;
+   
+CREATE SEQUENCE SQ_RHSTU_EMAIL_PACIENTE
+   START WITH 20    
+   INCREMENT BY 1          
+   MAXVALUE 1500         
+   NOCACHE                 
+   NOCYCLE;
+   
+CREATE SEQUENCE SQ_RHSTU_PLANO_SAUDE
+   START WITH 20    
+   INCREMENT BY 1          
+   MAXVALUE 1500         
+   NOCACHE                 
+   NOCYCLE;
+   
+CREATE SEQUENCE SQ_RHSTU_PACIENTE_PLANO_SAUDE
+   START WITH 30    
+   INCREMENT BY 1          
+   MAXVALUE 1500         
+   NOCACHE                 
+   NOCYCLE;
+   
+CREATE SEQUENCE SQ_RHSTU_FORMA_PAGAMENTO
+   START WITH 30    
+   INCREMENT BY 1          
+   MAXVALUE 1500         
+   NOCACHE                 
+   NOCYCLE;
+   
+CREATE SEQUENCE SQ_RHSTU_CONSULTA_FORMA_PAGTO
+   START WITH 30    
+   INCREMENT BY 1          
+   MAXVALUE 1500         
+   NOCACHE                 
+   NOCYCLE;
